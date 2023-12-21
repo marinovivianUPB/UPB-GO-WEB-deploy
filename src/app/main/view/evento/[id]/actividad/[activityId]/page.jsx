@@ -56,7 +56,7 @@ const onSubmit = (data) =>{
   return (
     <div className='flex w-full min-h-screen bg-[#112A7C] justify-center align-middle items-center'>
       <form className='flex flex-col bg-[#E7DDCB] border-2 border-black py-6 px-6 gap-10 justify-center align-middle items-center w-5/12' onSubmit={handleSubmit(onSubmit)}>
-        <div className='flex text-black text-2xl font-normal text-start w-full'>Editar Evento</div>
+        <div className='flex text-black text-2xl font-normal text-start w-full'>Editar Actividad</div>
         <div className='flex flex-col border-2 border-black p-5 gap-5 w-full bg-[#FBF1DF]'>
                     <div className='flex flex-col'>
                         <label className=" text-xl text-black mb-5 font-medium">Descripcion:</label>
